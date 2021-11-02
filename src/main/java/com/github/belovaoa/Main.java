@@ -1,6 +1,6 @@
 package com.github.belovaoa;
 
-public class GalinaBraun {
+public class Main {
 
     static class Woman {
 
