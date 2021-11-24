@@ -1,6 +1,6 @@
 package com.github.belovaoa;
 
-public class MotocicleHarley {
+public class MotorcycleHarley {
 
     static class moto {
 
@@ -16,7 +16,7 @@ public class MotocicleHarley {
             System.out.println(colour);
         }
 
-        public void sayPrice(){
+        public void sayPrice() {
             System.out.println(price);
         }
 
@@ -26,16 +26,16 @@ public class MotocicleHarley {
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        moto harley  = new moto();
+        moto harley = new moto();
         System.out.println("Я купил сегодня: ");
         harley.name = "HarleyDavidson";
         harley.sayName();
         System.out.println("Его цвет: ");
         harley.colour = "white";
         harley.sayColour();
-        harley.price = Integer.parseInt("1000000");
+        harley.price = 1000000;
         System.out.println("Его цена:");
         harley.sayPrice();
         System.out.println("Через год он будет стоить: ");
