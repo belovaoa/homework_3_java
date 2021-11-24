@@ -20,14 +20,14 @@ public class Main {
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Woman galya = new Woman();
         System.out.println("На приеме косметолога сегодня:");
         galya.name = "Galina";
         galya.sayName();
         System.out.println("Ее возраст:");
-        galya.age = Integer.parseInt("25");
+        galya.age = 25;
         galya.sayAge();
         System.out.println("После нанесения омолаживающего крема пациент выглядит на:");
         galya.applyCream();
