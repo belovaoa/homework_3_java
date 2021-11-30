@@ -2,7 +2,7 @@ package com.github.belovaoa;
 
 public class MotorcycleHarley {
 
-    static class moto {
+    static class Moto {
 
         private String name;
         private String colour;
@@ -28,7 +28,7 @@ public class MotorcycleHarley {
 
     public static void main(String[] args) {
 
-        moto harley = new moto();
+        Moto harley = new Moto();
         System.out.println("Я купил сегодня: ");
         harley.name = "HarleyDavidson";
         harley.sayName();
