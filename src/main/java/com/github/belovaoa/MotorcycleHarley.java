@@ -4,9 +4,9 @@ public class MotorcycleHarley {
 
     static class moto {
 
-        String name;
-        String colour;
-        int price;
+        private String name;
+        private String colour;
+        private int price;
 
         public void sayName() {
             System.out.println(name);
